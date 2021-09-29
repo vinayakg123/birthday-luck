@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+:root {
+    --primary-color: lightgreen;
+}
+ 
+body {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1rem;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
+    color:darkblue;
+    font-size:xx-large;
+    
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+label {
+    color:red;
+}
+
+input,label {
+    display: block;
+    width: 90%;
+    font-size: larger;
+    padding: 0.3rem
+    
+}
+
+input {
+    margin-bottom: 0.5rem;
+    border-block-color:cyan; 
+    border-radius: 0.6rem; 
+    color:blue; 
+}
+
+#check-number {
+    color:blue;
+    border-width: medium;
+    border-radius: 0.9rem;
+    border-color:cyan;
+    padding: 0.4em;
+    font-size: large;
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+}
+
+#output-box {
+    color:tomato;
+    font-size:x-large;
+    text-align: center;
+    padding: 0.3rem;
+}
+
+img{
+    display: block;
+    max-width: 598px;
+    padding:0.5rem;
+    
+
+   
+}
